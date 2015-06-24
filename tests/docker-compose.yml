@@ -33,8 +33,6 @@ appcli:
 appsrc:
   image: phundament/app:4.0.0-rc1-dev
   volumes:
-    - ../:/app/vendor/bedezign/yii2-audit
-    - _config/local.php:/app/src/config/local.php
     - '/app'
   command: 'tail -f /dev/null'
 
