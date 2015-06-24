@@ -1,6 +1,6 @@
 <?php
 
-namespace tests;
+namespace tests\unit;
 
 use PHPUnit_Extensions_Database_DataSet_QueryDataSet;
 use tests\models\Post;

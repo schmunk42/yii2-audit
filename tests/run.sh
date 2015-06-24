@@ -2,6 +2,6 @@
 
 docker-compose run --rm appcli \
     sh -c ' \
-        composer install bedezign/yii2-audit dev-master
+        codecept build -c vendor/bedezign/yii2-audit
         codecept run -c vendor/bedezign/yii2-audit unit
     '
