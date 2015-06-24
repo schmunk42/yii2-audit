@@ -15,7 +15,7 @@ docker-compose run --rm appsrc \
     '
 
 # Run in CLI container, with database link (ENV variables)
-docker-compose run --rm appclit \
+docker-compose run --rm appcli \
     sh -c '
         ./yii app/create-mysql-db && ./yii migrate --interactive=0
     '
